@@ -8,27 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="col-sm-7">
 	<h1>Inernship Form</h1>
+	<div class="col-sm-7">
+	
 	<form class="row g-3">
 		<div class="col-md-6"><label for="first-name-input" class="form-label">First Name</label>
-		<input type="text" class="form-control"id="first-name-input">
+		<input type="text" class="form-control"id="first-name-input" required>
          </div>
 		<div class="col-md-6">
-		<label for="Last-Name" class="form-label">Last Name</label>
-		<input type="text" class="form-control"id="last-name-input">
+		<label for="last-name-input" class="form-label">Last Name</label>
+		<input type="text" class="form-control"id="last-name-input" required>
         </div>
 		<div class="col-md-6">
-		<label for="mail" class="form-label">Email</label>
-		<input type="email"class="form-control" id="email-input">
+		<label for="email-input" class="form-label">Email</label>
+		<input type="email"class="form-control" id="email-input" required>
             </div>
 		<div class="col-md-6">
-		<label for="collage" class="form-label">College Name</label>
-		<input type="text"class="form-control" id="college-input">
+		<label for="college-input" class="form-label">College Name</label>
+		<input type="text"class="form-control" id="college-input" required>
 		</div>
          <div>
-		<label for="year" class="form-label">Graduation year</label>
-		<select id="inputState" class="form-select">
+		<label for="grad-year-select" class="form-label" required>Graduation year</label>
+		<select id="grad-year-select" class="form-select" required>
 			<option>Choose...</option>
 			<option>2020</option>
 			<option>2021</option>
@@ -36,10 +37,14 @@
 			<option>2023</option>
 		</select>
        </div>
+		<div class="col-md-6">
+		<label for="roll-no-input" class="form-label">Roll No</label>
+		<input type="text"class="form-control" id="roll-no-input" required>
+		</div>
 		<div class="col-12">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
+      <label class="form-check-label" for="conditions-checkbox" required>
         Agree to term and conditon
       </label>
     </div>
